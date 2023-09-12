@@ -2,6 +2,8 @@
 CFLAGS = -Wall -Wextra
 LIBS = -lcurl
 
+LDFLAGS = "-Wl,-z,relro,-z,now
+
 SRCS = main.c
 EXECUTABLE = hello_curl
 
