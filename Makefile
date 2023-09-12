@@ -12,7 +12,7 @@ EXECUTABLE = hello_curl
 all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(SRCS)
-	$(CC) $(CFLAGS) $^ $(LIBS) -o $@
+	$(CC) $(CFLAGS) $(LDFLAGS) $^ $(LIBS) -o $@
 
 clean:
 	rm -f $(EXECUTABLE)
