@@ -7,6 +7,7 @@ size_t write_callback(void *contents, size_t size, size_t nmemb, char *output) {
     return total_size;
 }
 
+// teste
 int main() {
     CURL *curl;
     CURLcode res;
